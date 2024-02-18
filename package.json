@@ -1,0 +1,23 @@
+{
+  "name": "testing-rabbitmq",
+  "version": "1.0.0",
+  "description": "Código de práctica y revisión de RabbitMQ",
+  "author": "Nicolás Giacaman",
+  "license": "ISC",
+  "type": "module",
+  "main": "core.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolasegp/testing-rabbitmq.git"
+  },
+  "scripts": {
+    "start:core": "node core.js",
+    "start:notifications": "node notifications.js",
+    "start:payments": "node payments.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "fastify": "^4.26.1",
+    "fastify-amqp": "^1.1.0"
+  }
+}
