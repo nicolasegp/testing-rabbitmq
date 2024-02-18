@@ -13,7 +13,7 @@ El ejemplo cuenta con 3 piezas:
 Ejecutar el **docker-compose** para iniciar RabbitMQ en la URL: http://localhost:15672/ `(usuario y contraseña son: guest)`
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 ### Para ejecutar el Core y los servicios:
